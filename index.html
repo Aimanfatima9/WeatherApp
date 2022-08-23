@@ -1,0 +1,36 @@
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather App in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking BoxIcon for Icon -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="search">
+        <input id="input" type="search" placeholder="Enter City" required autocomplete="off" spellcheck="false">
+        <button id="btn-search">Search</button>
+    </div>
+
+    <main id="container">
+        <div id="location">
+            <p>---------</p>
+        </div>
+        <div id="temp">
+            <img id="temp-icon" src="images/cloud.svg" alt="">
+            <p> <span id="temp-value"> ----------- </span><span id="temp-unit">&#176c</span></p>
+        </div>
+
+        <div id="weather">
+            <p>------</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
